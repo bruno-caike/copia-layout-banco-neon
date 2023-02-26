@@ -1,0 +1,25 @@
+.card-depoimento {
+    width: 100%;
+    max-width: 38.4rem;
+    height: 20.9rem;
+    border-radius: .8rem;
+    background-color: rgba($gray-100, .55);
+    padding: 3.7rem 3.2rem 2.3rem 3.2rem;
+    .user {
+        margin-bottom: 2.1rem;
+        @include flex(row, center, space-between);
+        strong {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            color: $gray-500;
+            font-size: 1.8rem;
+            line-height: 112%;
+            letter-spacing: -1;
+        }
+    }
+    p {
+        font-size: 1.8rem;
+        line-height: 150%;
+        color: $gray-400;
+    }
+}
